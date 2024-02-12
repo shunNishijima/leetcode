@@ -1,4 +1,15 @@
 // 141. Linked List Cycle
+/**
+ * Definition for singly-linked list.
+ * class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) {
+ *         val = x;
+ *         next = null;
+ *     }
+ * }
+ */
 // To determine if a linked list has a cycle, you can use Floyd's Tortoise and Hare algorithm. This algorithm involves two pointers, one moving at twice the speed of the other. If there is a cycle, eventually the faster pointer will meet the slower pointer. If there is no cycle, the faster pointer will reach the end of the list.
 
 // Here's a Java implementation:
