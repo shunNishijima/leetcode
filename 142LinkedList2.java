@@ -10,18 +10,18 @@
  * }
  */
 
- //**
- To solve this problem, you can use Floyd's Tortoise and Hare algorithm, also known as the "hare and tortoise" algorithm. Here's how it works:
+//  //**
+//  To solve this problem, you can use Floyd's Tortoise and Hare algorithm, also known as the "hare and tortoise" algorithm. Here's how it works:
 
-Initialize two pointers, slow and fast, both pointing to the head of the linked list.
-Move slow one step at a time and fast two steps at a time.
-If there is a cycle, eventually slow and fast will meet at some point within the cycle.
-Once they meet, reset one of the pointers back to the head of the list, and move both pointers one step at a time. The point where they meet again will be the start of the cycle.
-Here's the implementation:
+// Initialize two pointers, slow and fast, both pointing to the head of the linked list.
+// Move slow one step at a time and fast two steps at a time.
+// If there is a cycle, eventually slow and fast will meet at some point within the cycle.
+// Once they meet, reset one of the pointers back to the head of the list, and move both pointers one step at a time. The point where they meet again will be the start of the cycle.
+// Here's the implementation:
 
-This algorithm runs in O(n) time complexity and O(1) space complexity, meeting the requirements of the problem.
+// This algorithm runs in O(n) time complexity and O(1) space complexity, meeting the requirements of the problem.
 
-**/
+// **/
 
 public class Solution {
     public ListNode detectCycle(ListNode head) {
